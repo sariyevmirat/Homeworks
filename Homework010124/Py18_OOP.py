@@ -25,45 +25,45 @@
 # b = 14 + a
 # print(b)
 
-# #Zadaniye №2.
-# class Games:
-#     Year = 0
-#     def __init__(self, year):
-#         self.__class__.Year = year
-#     def getName(self):
-#         pass
-# class PCGames(Games):
-#     def __init__(self, year, name):
-#         super().__init__(year)
-#         self.neme = name
-#     def getName(self):
-#         return self.neme
-# class PS4Games(Games):
-#     def __init__(self, year, name):
-#         super().__init__(year)
-#         self.name = name
-#     def getName(self):
-#         return self.name
-# class XboxGames(Games):
-#     def __init__(self, year, name):
-#         super().__init__(year)
-#         self.name = name
-#     def getName(self):
-#         return self.name
-# class MobileGames(Games):
-#     def __init__(self, year, name):
-#         super().__init__(year)
-#         self.name = name
-#     def getName(self):
-#         return self.name
-# pc_game = PCGames(2023, "Lethal company")
-# ps4_game = PS4Games(2020, "RDR2")
-# xbox_game = XboxGames(2013, "Titanfall")
-# mobile_game = MobileGames(2019, "PUBG")
-# print(pc_game.getName())
-# print(ps4_game.getName())
-# print(xbox_game.getName())
-# print(mobile_game.getName())
+#Zadaniye №2.
+class Games:
+    Year = 0
+    def __init__(self, year):
+        self.__class__.Year = year
+    def getName(self):
+        pass
+class PCGames(Games):
+    def __init__(self, year, name):
+        super().__init__(year)
+        self.neme = name
+    def getName(self):
+        return self.neme
+class PS4Games(Games):
+    def __init__(self, year, name):
+        super().__init__(year)
+        self.name = name
+    def getName(self):
+        return self.name
+class XboxGames(Games):
+    def __init__(self, year, name):
+        super().__init__(year)
+        self.name = name
+    def getName(self):
+        return self.name
+class MobileGames(Games):
+    def __init__(self, year, name):
+        super().__init__(year)
+        self.name = name
+    def getName(self):
+        return self.name
+pc_game = PCGames(2023, "Lethal company")
+ps4_game = PS4Games(2020, "RDR2")
+xbox_game = XboxGames(2013, "Titanfall")
+mobile_game = MobileGames(2019, "PUBG")
+print(pc_game.getName())
+print(ps4_game.getName())
+print(xbox_game.getName())
+print(mobile_game.getName())
 
 # #Zadanie №3.
 # class Country:
